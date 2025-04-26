@@ -10,6 +10,9 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
+  <a href="https://github.com/AlmeidaLeoDev/ListaDeTarefas">
+    <img src="img/myLogo.svg" alt="Logo" width="250" height="250">
+  </a>
   <h3 align="center">TO DO LIST</h3>
 </div>
 
@@ -70,8 +73,10 @@ Main Objectives:
 ### Built With
 
 ![Static Badge](https://img.shields.io/badge/PHP-white?style=for-the-badge&logo=PHP&logoSize=auto) </br>
-![Static Badge](https://img.shields.io/badge/amazon%20ec2-white?style=for-the-badge&logo=amazon%20ec2&logoSize=auto) </br>
 [![Static Badge](https://img.shields.io/badge/html-white?style=for-the-badge&logo=html5)](https://developer.mozilla.org/en-US/docs/Web/HTML) </br>
+[![Static Badge](https://img.shields.io/badge/css-white?style=for-the-badge&logo=css3&logoColor=%231572B6)](https://developer.mozilla.org/en-US/docs/Web/CSS) </br>
+![Static Badge](https://img.shields.io/badge/amazon%20ec2-white?style=for-the-badge&logo=amazon%20ec2&logoSize=auto)
+
 
 <br />
 <p align="left">(<a href="#readme-top">Back to top</a>)</p>
@@ -134,7 +139,7 @@ http://localhost:8000
 
 * Add a Task: Type in the form and click Adicionar.
 * Toggle Status: Click the status badge to switch between “Pendente” and “Concluída.”
-* Delete Task: Click the ❌ icon and confirm deletion.
+* Delete Task: Click the "X" icon and confirm deletion.
 * Clear All: Use the “Limpar todas as tarefas” button and confirm.
 * Counters: Check that the Total, Pendentes, and Concluídas counters update correctly.
 
@@ -154,32 +159,40 @@ Demonstration of how the PHP task-list application can be used.
   
 * On the homepage, type your task into the input field.
 * Click the "Adicionar" button.
+
+<img src="img/1.1sitePrint.png" alt="site-add-button" width="800" height="auto">
+
 * The new task appears in the list with a “Pendente” badge.
 
-<img src="" alt="" width="800" height="auto">
+<img src="img/1.2sitePrint.png" alt="new-task" width="800" height="auto">
 <p></p>
 
-**2. 2. Toggling Task Status**
+**2. Toggling Task Status**
 
 * Click on the "Pendente" or "Concluída" badge next to any task.
 
-<img src="" alt="" width="800" height="auto">
+<img src="img/2.1sitePrint.png" alt="toggling-task" width="800" height="auto">
+<img src="img/2.2sitePrint.png" alt="toggling-task" width="800" height="auto">
+
 <p></p>
 
 **3. Deleting a Task**
 
-* Click the ❌ icon on the right of a task.
+* Click the "X" icon on the right of a task.
 * Confirm the deletion in the browser dialog. The task is removed from the list.
 
-<img src="" alt="" width="800" height="auto">
+<img src="img/3.1sitePrint.png" alt="deleting-task" width="800" height="auto">
+<img src="img/3.2sitePrint.png" alt="deleting-task" width="800" height="auto">
+
 <p></p>
 
 **4. Clearing All Tasks**
 
-* At the bottom, click Limpar todas as tarefas (with the 🗑️ icon).
+* At the bottom, click Limpar todas as tarefas (with the trash can icon).
 * Confirm in the popup dialog. All tasks are wiped from the session.
 
-<img src="" alt="" width="800" height="auto">
+<img src="img/4.1sitePrint.png" alt="clearing-task" width="800" height="auto">
+<img src="img/4.2sitePrint.png" alt="clearing-task" width="800" height="auto">
 <p></p>
 
 **5. Viewing Task Counters**
@@ -207,7 +220,7 @@ Demonstration of how the PHP task-list application can be used.
   <tr>
     <td align="center">
       <a href="https://www.linkedin.com/in/almeidaleo-dev/" target="_blank">
-        <img src="" width="100px;" alt="Leonardo Almeida Profile Picture"/><br>
+        <img src="img/profile.jpg" width="100px;" alt="Leonardo Almeida Profile Picture"/><br>
         <sub>
           <b>Leonardo Almeida</b>
         </sub>
