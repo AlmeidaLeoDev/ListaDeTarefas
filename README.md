@@ -48,8 +48,6 @@
         <li><a href="#top-contributors">Top contributors</a></li>
       </ul>
     </li>
-    <li><a href="#credits">Credits</a></li>
-    <li><a href="#license">License</a></li>
   </ol>
 </details>
 
@@ -57,7 +55,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-A simple task management web application built with PHP and styled with vanilla CSS. Tasks are managed using PHP sessions, allowing you to add, mark as complete/incomplete, delete individual tasks, or clear the entire list.
+A simple task management web application built with PHP and styled with CSS. Tasks are managed using PHP sessions, allowing you to add, mark as complete/incomplete, delete individual tasks, or clear the entire list.
 
 Deployed and tested on Amazon EC2.
 
@@ -91,7 +89,7 @@ Instructions on how you can set up your project locally.
 
 * Git: To clone the repository.
 * PHP >= 7.4 or 8.x – Required to run the application.
-* Web Server (Apache or Nginx) – To serve the application.
+* Web Server (Apache) – To serve the application.
 * Amazon EC2 Instance – If deploying to a production environment.
 
 
@@ -137,11 +135,11 @@ http://localhost:8000
 
 **4. Verify the Setup**
 
-* Add a Task: Type in the form and click Adicionar.
-* Toggle Status: Click the status badge to switch between “Pendente” and “Concluída.”
+* Add a Task: Type in the form and click "To add".
+* Toggle Status: Click the status badge to switch between “Pending” and “Completed”
 * Delete Task: Click the "X" icon and confirm deletion.
-* Clear All: Use the “Limpar todas as tarefas” button and confirm.
-* Counters: Check that the Total, Pendentes, and Concluídas counters update correctly.
+* Clear All: Use the “Clear all tasks” button and confirm.
+* Counters: Check that the Total, Pending, and Completed counters update correctly.
 
 <br />
 <p align="left">(<a href="#readme-top">Back to top</a>)</p>
@@ -158,18 +156,18 @@ Demonstration of how the PHP task-list application can be used.
 **1. Adding a New Task**
   
 * On the homepage, type your task into the input field.
-* Click the "Adicionar" button.
+* Click the "To add" button.
 
 <img src="img/1.1sitePrint.png" alt="site-add-button" width="800" height="auto">
 
-* The new task appears in the list with a “Pendente” badge.
+* The new task appears in the list with a “Pending” badge.
 
 <img src="img/1.2sitePrint.png" alt="new-task" width="800" height="auto">
 <p></p>
 
 **2. Toggling Task Status**
 
-* Click on the "Pendente" or "Concluída" badge next to any task.
+* Click on the "Pending" or "Completed" badge next to any task.
 
 <img src="img/2.1sitePrint.png" alt="toggling-task" width="800" height="auto">
 <img src="img/2.2sitePrint.png" alt="toggling-task" width="800" height="auto">
@@ -188,7 +186,7 @@ Demonstration of how the PHP task-list application can be used.
 
 **4. Clearing All Tasks**
 
-* At the bottom, click Limpar todas as tarefas (with the trash can icon).
+* At the bottom, click "Clear all tasks" (with the trash can icon).
 * Confirm in the popup dialog. All tasks are wiped from the session.
 
 <img src="img/4.1sitePrint.png" alt="clearing-task" width="800" height="auto">
@@ -199,8 +197,8 @@ Demonstration of how the PHP task-list application can be used.
 
 * Check the counters in the center:
   * Total: total number of tasks
-  * Pendentes: tasks still pending
-  * Concluídas: tasks already completed
+  * Pendings: tasks still pending
+  * Completed: tasks already completed
 
 <img src="" alt="" width="800" height="auto">
 
